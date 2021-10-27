@@ -23,7 +23,7 @@ Jinja2==2.11.2
 jsonfield==3.1.0
 MarkupSafe==1.1.1
 mccabe==0.6.1
-ortools==7.6.7691
+ortools==9.1.9490
 pathspec==0.8.0
 protobuf==3.12.2
 psycopg2==2.8.5
