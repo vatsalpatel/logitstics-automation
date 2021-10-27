@@ -18,9 +18,6 @@ import dj_database_url
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# Heroku env variables
-django_heroku.settings(locals())
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
@@ -181,3 +178,6 @@ STRIPE_SECRET = os.environ['STRIPE_SECRET']
 STRIPE_WEBHOOK = os.environ['STRIPE_WEBHOOK']
 STRIPE_STARTER_PLAN = os.environ['STRIPE_STARTER_PLAN']
 STRIPE_BUSINESS_PLAN = os.environ['STRIPE_BUSINESS_PLAN']
+
+# Heroku env variables
+django_heroku.settings(locals())
