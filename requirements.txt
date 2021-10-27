@@ -6,8 +6,10 @@ certifi==2020.4.5.2
 chardet==3.0.4
 click==7.1.2
 dj-stripe==2.3.0
+dj_database_url==0.5.0
 Django==3.0.7
 django-cors-headers==3.4.0
+django-heroku==0.3.1
 django-templated-mail==1.1.1
 djangorestframework==3.11.0
 djangorestframework-simplejwt==4.4.0
