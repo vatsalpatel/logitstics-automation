@@ -136,7 +136,7 @@ function Dashboard(props) {
                                         <div className={classes.block}>
                                             <Typography variant="subtitle2">Charge Amount: </Typography>
                                             <Typography variant="h4">
-                                                {user.plan === "STARTER" ? "$19.99" : user.plan === "BUSINESS" ? "$39.99" : ""}
+                                                {user.plan === "STARTER" ? "$9.99" : user.plan === "BUSINESS" ? "$24.99" : ""}
                                             </Typography>
                                         </div>
                                         <div className={classes.block}>
