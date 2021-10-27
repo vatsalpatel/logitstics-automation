@@ -169,7 +169,7 @@ ADMIN_EMAIL_ADDRESS = os.environ["ADMIN_EMAIL"]
 
 # Site Settings for Email
 SITE_NAME = "Routing Bot"
-DOMAIN = "routing-bot.heruokuapp.com"
+DOMAIN = "routingbot.netlify.app"
 
 
 # Stripe Settings
