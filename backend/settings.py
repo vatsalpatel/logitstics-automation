@@ -14,12 +14,12 @@ import os
 import django_heroku
 import dj_database_url
 
-# Heroku env variables
-django_heroku.settings(locals())
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+# Heroku env variables
+django_heroku.settings(locals())
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
@@ -31,7 +31,9 @@ SECRET_KEY = os.environ["SECRET_KEY"],
 DEBUG = os.environ["DEBUG"]
 
 ALLOWED_HOSTS = [
-    'localhost'
+    'localhost',
+    '127.0.0.1',
+    'routing-bot.herokuapp.com',
 ]
 
 
